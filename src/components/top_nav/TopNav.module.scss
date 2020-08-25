@@ -181,9 +181,6 @@
                     }
 
                     li {
-                        @media (max-width: $medium) {
-                            padding: 6px;
-                        }
                         .navLink {
                             font-weight: $semi-bold;
                             color: $blue;
