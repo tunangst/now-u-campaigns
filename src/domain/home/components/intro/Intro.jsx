@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from './Intro.module.scss';
-import { Text, Button, DownloadButtons } from '../../../../components';
+import { Text, Button } from '../../../../components';
+import AppDownloadButtons from '../../../../components/app_download/AppDownloadButtons';
 
 const Intro = () => {
     return (
@@ -32,7 +33,7 @@ const Intro = () => {
                     </Button>
                 </div>
                 <div className={classes.downloadBtnContainer}>
-                    <DownloadButtons />
+                    <AppDownloadButtons />
                 </div>
             </div>
         </section>
